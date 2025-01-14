@@ -4,7 +4,7 @@ import { StyleSheet, View, Button, FlatList, Image } from "react-native";
 import TodoItem from "./components/TodoItem";
 import TodoInput from "./components/TodoInput";
 import DisplayImage from "./components/DisplayImage";
-import Header from "./components/Header";
+import H2Heading from "./components/H2Heading";
  
 export default function App() {
   const [tasks, setTasks] = useState([]);
@@ -30,7 +30,7 @@ export default function App() {
  
   return (
     <View>
-      <Header title="Todos Tasks App"></Header>
+      <H2Heading title="Todos Tasks App"></Header>
       <View style={styles.screen}>
         <Button 
           title="Add New task"
