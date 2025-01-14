@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Text } from "react-native";
  
-const Header = props => {
+const H2Heading = props => {
   return (
     <View style={styles.header}>
       <Text style={styles.headerTitle}>{props.title}</Text>
@@ -24,4 +24,4 @@ const styles = StyleSheet.create({
   }
 });
  
-export default Header;
+export default H2Heading;
